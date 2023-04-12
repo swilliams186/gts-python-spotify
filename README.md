@@ -1,3 +1,10 @@
 #### [Guess The Song](https://github.com/swilliams186/gts-python-spotify) - 
+
 A project made as a proof of concept. A take on the popular "Guess the Song" game where a small sample of a song is played and then the user has to guess the name of the song and the artist. My app uses the Spotify API to access their immense database of songs and play a short sample of a track. The idea for this came to me after a new years eve party where the host was using pre-generated YouTube videos for the song playlists. I thought that was a horrible way of doing it so I created my own game.
-###### I also learnt an excellent lesson here about uploading files containing client secrets! I now use external files and .gitignore or environment variables every time. A mistake everyone makes once!
+###### I also learnt an excellent lesson here about uploading files containing client secrets! I now use external files and .gitignore or environment variables every time. A mistake everyone makes once! (don't worry, the key you can find in the commits has been deprecated)
+
+This project is currently unfinished, as I feel I took it far enough to prove the concept and make it functional enough. There is plenty more I could add to it, there are plenty of places for the code to be improved (just count the TODOs!), and the GUI really needs an overhaul! 
+
+This project is also a great example of development without planning and with ever changing requirements. Originally I was only interested in making the backend proof of concept, then when that came along without much hassle I decided to keep adding functionality and changing the implementation. It was my passon project for a few weeks. Unfortunately I was not using git or GitHub correctly so the commit history is lacking - another excellent learning experience, my later projects are all updated much more frequently.
+
+If I was to revisit this app the first change I would make is to change the GUI to use PyQT or just modernised Tkinter. The main goal of this project was the backend develpment and I only added the GUI as a way of displaying the data, rather than making it a game. It didn't get the attention it deserved, it was a quick slap of paint on a car where I only liked the engine!
